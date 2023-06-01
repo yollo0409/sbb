@@ -1,4 +1,4 @@
-package com.myside.sbb.question;
+package com.mysite.sbb.question;
 
 import java.security.Principal;
 
@@ -15,9 +15,9 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.server.ResponseStatusException;
 
-import com.myside.sbb.answer.AnswerForm;
-import com.myside.sbb.user.SiteUser;
-import com.myside.sbb.user.UserService;
+import com.mysite.sbb.answer.AnswerForm;
+import com.mysite.sbb.user.SiteUser;
+import com.mysite.sbb.user.UserService;
 
 import jakarta.validation.Valid;
 import lombok.RequiredArgsConstructor;

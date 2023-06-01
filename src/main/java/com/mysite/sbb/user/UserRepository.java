@@ -1,4 +1,4 @@
-package com.myside.sbb.user;
+package com.mysite.sbb.user;
 
 import java.util.Optional;
 

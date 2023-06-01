@@ -1,4 +1,4 @@
-package com.myside.sbb.answer;
+package com.mysite.sbb.answer;
 
 import java.security.Principal;
 
@@ -13,10 +13,10 @@ import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.server.ResponseStatusException;
 
-import com.myside.sbb.question.Question;
-import com.myside.sbb.question.QuestionService;
-import com.myside.sbb.user.SiteUser;
-import com.myside.sbb.user.UserService;
+import com.mysite.sbb.question.Question;
+import com.mysite.sbb.question.QuestionService;
+import com.mysite.sbb.user.SiteUser;
+import com.mysite.sbb.user.UserService;
 
 import jakarta.validation.Valid;
 import lombok.RequiredArgsConstructor;

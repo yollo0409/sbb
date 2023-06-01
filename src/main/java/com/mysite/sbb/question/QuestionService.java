@@ -1,4 +1,4 @@
-package com.myside.sbb.question;
+package com.mysite.sbb.question;
 
 import java.time.LocalDateTime;
 import java.util.ArrayList;
@@ -12,9 +12,9 @@ import org.springframework.data.domain.Sort;
 import org.springframework.data.jpa.domain.Specification;
 import org.springframework.stereotype.Service;
 
-import com.myside.sbb.DataNotFoundException;
-import com.myside.sbb.answer.Answer;
-import com.myside.sbb.user.SiteUser;
+import com.mysite.sbb.DataNotFoundException;
+import com.mysite.sbb.answer.Answer;
+import com.mysite.sbb.user.SiteUser;
 
 import jakarta.persistence.criteria.CriteriaBuilder;
 import jakarta.persistence.criteria.CriteriaQuery;
